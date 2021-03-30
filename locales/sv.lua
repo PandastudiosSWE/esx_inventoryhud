@@ -1,0 +1,20 @@
+Locales["sv"] = {
+	["cash"] = "Kontanter",
+	["black_money"] = "Svarta Kontanter",
+	["player_nearby"] = "Denna Spelaren är inte nära dig!",
+	["players_nearby"] = "Det finns inga spelare nära dig!",
+	["openinv_help"] = "Öppnar en annan spelares inventory",
+	["openinv_id"] = "Player ID",
+	["no_permissions"] = "Du har inte Rättigheter att göra detta!",
+	["no_player"] = "Hittade ej spelare med angiven ID!",
+	["player_inventory"] = "Spelares inventory",
+	["store"] = "Förvara",
+	["not_enough_space"] = "Du har inte tillräckligt med ledigt utrymme!",
+	["not_enough_money"] = "Du har inte tillräckligt med pengar!",
+	["already_have_weapon"] = "Du har redan det här vapnet!",
+	["bought"] = "Du köpte %sx %s för $%s",
+	["bad_amount"] = "Fel belopp!",
+	["took_from_storage"] = "Du tog %sx %s",
+	["took_not_enough"] = "Det finns inte tillräckligt med utrymme!",
+	["put_into_storage"] = "Du har lagt %sx %s in i förvaringen"
+}
