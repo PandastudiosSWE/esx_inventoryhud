@@ -101,7 +101,7 @@ AddEventHandler(
 			if amount > 0 then
 				if playerItem.limit ~= -1 and (playerItem.count + amount) > playerItem.limit then
 					TriggerClientEvent(
-						"pNotify:SendNotification",
+						"mythic_notify:SendNotification",
 						_source,
 						{
 							text = _U("not_enough_space"),
@@ -117,7 +117,7 @@ AddEventHandler(
 						xPlayer.addInventoryItem(item.name, amount)
 
 						TriggerClientEvent(
-							"pNotify:SendNotification",
+							"mythic_notify:SendNotification",
 							_source,
 							{
 								text = _U("bought", amount, item.label, item.price),
@@ -127,7 +127,7 @@ AddEventHandler(
 						)
 					else
 						TriggerClientEvent(
-							"pNotify:SendNotification",
+							"mythic_notify:SendNotification",
 							_source,
 							{
 								text = _U("not_enough_money"),
@@ -145,7 +145,7 @@ AddEventHandler(
 					xPlayer.addWeapon(item.name, item.ammo)
 
 					TriggerClientEvent(
-						"pNotify:SendNotification",
+						"mythic_notify:SendNotification",
 						_source,
 						{
 							text = _U("bought", 1, item.label, item.price),
@@ -155,7 +155,7 @@ AddEventHandler(
 					)
 				else
 					TriggerClientEvent(
-						"pNotify:SendNotification",
+						"mythic_notify:SendNotification",
 						_source,
 						{
 							text = _U("already_have_weapon"),
@@ -166,7 +166,7 @@ AddEventHandler(
 				end
 			else
 				TriggerClientEvent(
-					"pNotify:SendNotification",
+					"mythic_notify:SendNotification",
 					_source,
 					{
 						text = _U("not_enough_money"),

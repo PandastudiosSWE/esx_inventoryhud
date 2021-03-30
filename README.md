@@ -1,8 +1,17 @@
-# esx_inventoryhud 2.3.0
+## Edited By Pandastudios!
+My vertsion is using EXM (extendedmode) but if you want to use es_extended simply replace all the extendedmode in fxmanifest.lua with es_extended
+
+This is edited to work with otaku_vehicleshop!
+## Requirements
+* [otaku_vehicleshop](https://github.com/Sojobo/otaku_vehicleshop)
+* [My edited Vehicle trunk inventory](https://github.com/PandastudiosSWE/esx_inventoryhud_trunk)
+
+
+## Original esx_inventoryhud 2.3.0 Guide Below
 Inventory HUD for ESX. You can open and close inventory using F2. Part of code was taken from [es_extended](https://github.com/ESX-Org/es_extended).
 
 ## Requirements
-* [es_extended](https://github.com/esx-framework/es_extended/tree/v1-final) - version v1
+* [es_extended](https://github.com/esx-framework/es_extended/tree/v1-final) - version v1 
 * [pNotify](https://forum.fivem.net/t/release-pnotify-in-game-js-notifications-using-noty/20659)
 
 ## Features
