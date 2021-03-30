@@ -10,7 +10,7 @@ version "2.4.0"
 ui_page "html/ui.html"
 
 client_scripts {
-  "@es_extended/locale.lua",
+  "@extendedmode/locale.lua",
   "client/main.lua",
   "client/trunk.lua",
   "client/property.lua",
@@ -22,7 +22,7 @@ client_scripts {
 }
 
 server_scripts {
-  "@es_extended/locale.lua",
+  "@extendedmode/locale.lua",
   "server/main.lua",
   "server/storage.lua",
   "locales/*.lua",
